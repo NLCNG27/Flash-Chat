@@ -11,6 +11,7 @@
 		05BF8E2E2CD5AA6500C5D9F9 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BF8E2D2CD5AA6500C5D9F9 /* FirebaseAuth.framework */; };
 		05BF8E302CD5AA6500C5D9F9 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BF8E2F2CD5AA6500C5D9F9 /* FirebaseCore.framework */; };
 		05BF8E322CD5AA6500C5D9F9 /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BF8E312CD5AA6500C5D9F9 /* FirebaseFirestore.framework */; };
+		05D9079F2CD6C3FD000EF058 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D9079E2CD6C3FD000EF058 /* Constants.swift */; };
 		0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628176235DEE8100E35CAF /* AppDelegate.swift */; };
 		0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628178235DEE8100E35CAF /* SceneDelegate.swift */; };
 		0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B62817C235DEE8100E35CAF /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		05BF8E2D2CD5AA6500C5D9F9 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05BF8E2F2CD5AA6500C5D9F9 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		05BF8E312CD5AA6500C5D9F9 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D9079E2CD6C3FD000EF058 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0B628173235DEE8100E35CAF /* Flash Chat iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Chat iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B628176235DEE8100E35CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B628178235DEE8100E35CAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */,
 				0B628184235DEE8400E35CAF /* Info.plist */,
 				054768CC2CD5A2AC00251841 /* GoogleService-Info.plist */,
+				05D9079E2CD6C3FD000EF058 /* Constants.swift */,
 			);
 			path = "Flash Chat iOS13";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */,
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
+				05D9079F2CD6C3FD000EF058 /* Constants.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
 			);
