@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		054768CD2CD5A2AC00251841 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 054768CC2CD5A2AC00251841 /* GoogleService-Info.plist */; };
+		05BF8E2E2CD5AA6500C5D9F9 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BF8E2D2CD5AA6500C5D9F9 /* FirebaseAuth.framework */; };
+		05BF8E302CD5AA6500C5D9F9 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BF8E2F2CD5AA6500C5D9F9 /* FirebaseCore.framework */; };
+		05BF8E322CD5AA6500C5D9F9 /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BF8E312CD5AA6500C5D9F9 /* FirebaseFirestore.framework */; };
 		0B628177235DEE8100E35CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628176235DEE8100E35CAF /* AppDelegate.swift */; };
 		0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628178235DEE8100E35CAF /* SceneDelegate.swift */; };
 		0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B62817C235DEE8100E35CAF /* Main.storyboard */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		054768CC2CD5A2AC00251841 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		05BF8E2D2CD5AA6500C5D9F9 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BF8E2F2CD5AA6500C5D9F9 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BF8E312CD5AA6500C5D9F9 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B628173235DEE8100E35CAF /* Flash Chat iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flash Chat iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B628176235DEE8100E35CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B628178235DEE8100E35CAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +51,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05BF8E2E2CD5AA6500C5D9F9 /* FirebaseAuth.framework in Frameworks */,
+				05BF8E302CD5AA6500C5D9F9 /* FirebaseCore.framework in Frameworks */,
+				05BF8E322CD5AA6500C5D9F9 /* FirebaseFirestore.framework in Frameworks */,
 				7974846A883066F4F3019426 /* Pods_Flash_Chat_iOS13.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,6 +91,7 @@
 				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
 				0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */,
 				0B628184235DEE8400E35CAF /* Info.plist */,
+				054768CC2CD5A2AC00251841 /* GoogleService-Info.plist */,
 			);
 			path = "Flash Chat iOS13";
 			sourceTree = "<group>";
@@ -116,13 +128,15 @@
 				F7BC43C632CD52673C40B96B /* Pods-Flash Chat iOS13.debug.xcconfig */,
 				68BA206E3E9C70171066D8E0 /* Pods-Flash Chat iOS13.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		8A30C48B2A9FE754D05B28C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				05BF8E2D2CD5AA6500C5D9F9 /* FirebaseAuth.framework */,
+				05BF8E2F2CD5AA6500C5D9F9 /* FirebaseCore.framework */,
+				05BF8E312CD5AA6500C5D9F9 /* FirebaseFirestore.framework */,
 				E6AF35CB69E6C78CBB81E037 /* Pods_Flash_Chat_iOS13.framework */,
 			);
 			name = Frameworks;
@@ -190,6 +204,7 @@
 			files = (
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
+				054768CD2CD5A2AC00251841 /* GoogleService-Info.plist in Resources */,
 				0B62819E235F0F4D00E35CAF /* README.md in Resources */,
 				0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */,
 			);
