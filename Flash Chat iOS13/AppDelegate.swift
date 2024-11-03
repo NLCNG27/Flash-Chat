@@ -16,6 +16,12 @@ import IQKeyboardToolbarManager
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+//        let appearance = UINavigationBarAppearance()
+//        appearance.backgroundColor = UIColor(named: K.BrandColors.blue)
+//        UINavigationBar.appearance().standardAppearance = appearance
+//        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+        
         FirebaseApp.configure()
         
         let db = Firestore.firestore()
